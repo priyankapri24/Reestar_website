@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.navbar{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    padding: 10px;
+  
+}
+li{
+    display: inline;
+    font-size: small;
+}
+
+.gallery{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gallery__one,.gallery__two ,.gallery__three ,.gallery__four{
+    border: solid black 2px;
+    margin: 10px;
+    width: 200px;
+    height: fit-content;
+    display: inline-block;
+    
+}
+.gallery__three--a1,.gallery__three--a2,.gallery__three--a3,.gallery__three--a4{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+    
+    
+}
+
+p{
+    padding-bottom: 8px;
+    
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height:200px;
+}
+.contact__form{
+  
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.subb{
+    background-color: yellow;
+    color: black;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top:7px;
+    padding-bottom:7px;
+    margin-bottom: 10px;
+}
+
+li:hover{
+    color: gray;
+    cursor: pointer;
+    
+}
+a:hover{
+    background-color: purple;
+    color: white;
+   
+}
+
+.gallery__one:hover{
+    background-color: black;
+    color: white;
+}
+.gallery__two:hover{
+    background-color: black;
+    color: white;
+}
+.gallery__three:hover{
+    background-color: black;
+    color: white;
+}
+.gallery__four:hover{
+    background-color: black;
+    color: white;
+}
